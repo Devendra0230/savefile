@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Save Tool</title>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="static/js/script.js" defer></script>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <h1>File Save Tool</h1>
+
+    <!-- File Selection -->
+    <button id="fileButton">Select File</button>
+    <p id="selectedFile">No file selected</p>
+
+    <!-- Rename Input -->
+    <label for="newFileName">New File Name:</label>
+    <input type="text" id="newFileName" placeholder="Enter new file name with .exe extension">
+    <p id="renameHint">Example: newfilename.exe</p>
+
+    <!-- Save Button -->
+    <button id="saveButton">Save File</button>
+    <p id="result"></p>
+</body>
+</html>

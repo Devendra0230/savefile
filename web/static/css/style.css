@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headline */
+h1 {
+    text-align: center;
+    color: #5a5a9f;
+}
+
+/* Section Styling */
+.section {
+    margin: 20px 0;
+}
+
+/* Labels */
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Input Fields */
+input[type="file"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+.button {
+    width: 100%;
+    padding: 12px;
+    background: #5a5a9f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #49498c;
+}
+
+/* Info Messages */
+.info {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Result Messages */
+.result {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.result.success {
+    color: #28a745;
+}
+
+.result.error {
+    color: #dc3545;
+}
